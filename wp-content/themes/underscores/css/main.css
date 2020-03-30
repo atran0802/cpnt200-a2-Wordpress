@@ -1,0 +1,91 @@
+body {
+  background-color: #eee;
+  } 
+
+nav {
+  top: 0;
+  width: 100vw;
+  height: auto;
+
+  color: #fff;
+  background-image: linear-gradient(#424D63,#2A313F);
+  }
+
+nav a {
+  padding: .5rem;
+  }  
+
+nav ul {
+  display: flex;
+  float: right;
+
+  padding-right: 3em;
+
+  font-size: 20px;
+  }
+  
+nav li {
+  display: inline;
+
+  margin: 15px 0;
+  margin-right: 20px;
+  }    
+
+nav a:hover {
+  background-image: linear-gradient(#183F99,#0D2151);
+
+  padding: .5rem;
+  border-radius: .5rem;
+  }
+
+.current_page_item a {
+  background-color: #1B1F28;
+
+  padding: .5rem;
+  border-radius: .5rem;
+  }
+
+nav a:visited {
+  color:#fff;
+  } 
+
+h1 {
+  font-size: 40px;
+  }
+
+.entry-title {
+  display: flex;
+  justify-content: center;
+  }
+
+.entry-content {
+  max-width: 150ch;
+  margin: 0 auto;
+  }
+
+main li a {
+  text-decoration: none;
+  font-weight: bold;
+
+  color:#183F99;
+  }
+
+a:visited {
+  color:#183F99;
+  } 
+
+.site-footer {
+  color: #fff;
+  background-image: linear-gradient(#424D63,#2A313F);
+
+  padding: 1.5em;
+
+  display: flex;
+  justify-content: center;
+  }
+
+/* Removing Post Navigation */
+
+.entry-meta, .post-navigation, .cat-links, .edit-link {
+  display: none;
+  }
