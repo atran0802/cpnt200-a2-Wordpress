@@ -1,6 +1,6 @@
 # cpnt200-a2-Wordpress
 
-Deployed website: 
+Deployed website: https://cpnt200-a2-wordpress.000webhostapp.com/
 
 Images Sources:
  - Building: https://search.creativecommons.org/photos/ed4c6888-0843-48e5-8b8f-70d3d10fb431
